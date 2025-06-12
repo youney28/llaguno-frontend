@@ -1,0 +1,93 @@
+/* Register Container */
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #5B9BD5, #41719C);
+    padding: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  /* Greeting */
+  .minion-greeting {
+    font-size: 1.8rem;
+    color: #FFDE59;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+  }
+  
+  /* Register Wrapper */
+  .register-wrapper {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Register Box */
+  .register-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border: 4px solid #FFDE59;
+  }
+  
+  .register-title {
+    color: #5B9BD5;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Form Elements (no change needed for .form-*) */
+  
+  /* Register Button */
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFDE59;
+    color: #5B9BD5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-button:hover {
+    background-color: #F5D742;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Login Link Button */
+  .login-link-button {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: #5B9BD5;
+    border: 2px solid #5B9BD5;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .login-link-button:hover {
+    background-color: #F0F8FF;
+    border-color: #FFDE59;
+    color: #41719C;
+  }
+  
+  /* Responsive (no changes) */
+  

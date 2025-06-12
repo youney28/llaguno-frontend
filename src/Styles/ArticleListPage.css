@@ -1,0 +1,96 @@
+/* ArticleListPage.css */
+.article-content {
+  max-width: 800px;
+  margin: 3rem auto 2rem; /* Added more top margin */
+  padding: 0 1rem;
+}
+
+.article-main-title {
+  font-size: 2.2rem;
+  color: #3a5e8c;
+  text-align: center;
+  margin: 4rem 0 2rem; /* Increased top margin */
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+/* Rest of your existing CSS remains the same */
+.minion-container {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #ffde59;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.minion-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.minion-container h2 {
+  font-size: 1.5rem;
+  color: #3a5e8c;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.minion-container h2::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #ffde59;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.minion-description {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.conclusion {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  border: 1px dashed #ffde59;
+}
+
+.conclusion .minion-description {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .article-main-title {
+    font-size: 1.8rem;
+    margin: 3rem 0 1.5rem; /* Adjusted for tablet */
+  }
+  
+  .minion-container {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-main-title {
+    font-size: 1.5rem;
+    margin: 2.5rem 0 1.25rem; /* Adjusted for mobile */
+  }
+  
+  .minion-container h2 {
+    font-size: 1.3rem;
+  }
+  
+  .minion-description {
+    font-size: 1rem;
+  }
+}

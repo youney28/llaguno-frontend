@@ -1,0 +1,7 @@
+.layout-container {
+  background-color: #f6e13c; /* Minion yellow */
+  color: #000;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

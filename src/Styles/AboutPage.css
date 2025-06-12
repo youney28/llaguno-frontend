@@ -1,0 +1,166 @@
+.about-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.minions-social-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffde59;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.minions-social-header h1 {
+  font-size: 2.5rem;
+  color: #3a5e8c;
+  margin-bottom: 10px;
+}
+
+.minions-social-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.social-media-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.social-platform {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.social-platform:hover {
+  transform: translateY(-5px);
+}
+
+.platform-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.platform-icon.instagram {
+  background-image: url('instagram-icon.png'); /* Add your icon */
+}
+
+.platform-icon.twitter {
+  background-image: url('twitter-icon.png'); /* Add your icon */
+}
+
+.platform-icon.facebook {
+  background-image: url('facebook-icon.png'); /* Add your icon */
+}
+
+.platform-icon.tiktok {
+  background-image: url('tiktok-icon.png'); /* Add your icon */
+}
+
+.social-platform h2 {
+  color: #3a5e8c;
+  margin-bottom: 10px;
+}
+
+.social-platform p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #ffde59;
+  color: #3a5e8c;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #3a5e8c;
+  color: #ffde59;
+}
+
+.minions-newsletter {
+  background-color: #3a5e8c;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.minions-newsletter h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.minions-newsletter p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  padding: 12px 25px;
+  background-color: #ffde59;
+  color: #3a5e8c;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #ffdb45;
+}
+
+@media (max-width: 768px) {
+  .minions-social-header h1 {
+    font-size: 2rem;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+  
+  .newsletter-form input,
+  .newsletter-form button {
+    border-radius: 25px;
+    width: 100%;
+  }
+  
+  .newsletter-form input {
+    margin-bottom: 10px;
+  }
+}

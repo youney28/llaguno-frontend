@@ -1,0 +1,91 @@
+/* DashboardPage.css */
+
+/* Container styles */
+.dashboard-container {
+    margin-top: 80px;
+    margin-bottom: 32px;
+    flex-grow: 1;
+    background: linear-gradient(to bottom, #F0F8FF, #FFFFFF);
+}
+
+/* Title styles */
+.dashboard-title {
+    color: #4169E1;
+    font-family: '"Comic Sans MS", cursive, sans-serif';
+}
+
+/* Minion card styles */
+.minion-item {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+    justify-content: center;
+    background-color: #FFDE59;
+    color: #5D5D5D;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.minion-item:hover {
+    transform: scale(1.05);
+}
+
+/* Paper component styles */
+.minion-paper {
+    padding: 16px;
+    background-color: #F0F8FF;
+    border: 2px solid #FFDE59;
+    border-radius: 12px;
+}
+
+/* Chart title styles */
+.chart-title {
+    color: #4169E1;
+    margin-bottom: 16px;
+}
+
+/* DataGrid styles */
+.data-grid {
+    border-color: #FFDE59;
+}
+
+.data-grid .MuiDataGrid-cell:hover {
+    color: #4169E1;
+}
+
+.data-grid .MuiDataGrid-columnHeaders {
+    background-color: #FFDE59;
+    color: #4169E1;
+}
+
+/* Icon styles */
+.minion-icon {
+    font-size: 40px;
+    color: #4169E1;
+}
+
+/* Value styles */
+.value-total {
+    font-weight: bold;
+    color: #4169E1;
+}
+
+.value-positive {
+    font-weight: bold;
+    color: #32CD32;
+}
+
+.value-gold {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+/* Pie chart arc label styles */
+.pie-arc-label {
+    font-weight: bold;
+    fill: #5D5D5D;
+}

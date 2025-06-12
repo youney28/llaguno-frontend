@@ -1,0 +1,41 @@
+/* ReportPage.css */
+
+/* Container styles */
+.report-container {
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+/* Title styles */
+.report-title {
+    color: #4169E1;
+    font-family: '"Comic Sans MS", cursive, sans-serif';
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Paper component styles */
+.report-paper {
+    padding: 24px;
+    background-color: #F0F8FF;
+    border: 2px solid #FFDE59;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Chart title styles */
+.chart-title {
+    color: #4169E1;
+    margin-bottom: 16px;
+}
+
+/* Chart description styles */
+.chart-description {
+    margin-top: 16px;
+    color: #5D5D5D;
+}
+
+/* Pie chart arc label styles */
+.pie-arc-label {
+    font-weight: bold;
+    fill: #5D5D5D;
+}

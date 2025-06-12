@@ -1,0 +1,31 @@
+.users-container {
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.users-title {
+    color: #4169E1;
+    font-family: '"Comic Sans MS", cursive, sans-serif';
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.minion-paper {
+    padding: 16px;
+    border: 2px solid #FFDE59;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    height: 450px;
+}
+
+.data-grid {
+    border-color: #FFDE59;
+}
+
+.data-grid .MuiDataGrid-columnHeaders {
+    background-color: #FFDE59;
+    color: #333;
+}
+
+.data-grid .MuiDataGrid-cell {
+    color: #333;
+}
